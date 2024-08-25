@@ -101,6 +101,7 @@ const saveToLocalStorage=()=>{
     
      
       <Routes>
+      <Route path='/' element={<Home actiomn={App} />}></Route>
         <Route path='/todo' element={
            <>
            <NavBar />
@@ -139,7 +140,7 @@ const saveToLocalStorage=()=>{
 
         </div>
       </div> </>}></Route>
-        <Route path='/' element={<Home actiomn={App} />}></Route>
+        
         <Route path='/task' element={
           <>
           <NavBar/>
