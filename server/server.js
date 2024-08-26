@@ -58,7 +58,7 @@ const User=mongoose.model('user',userSchema);
 app.use(express.json());
 
 app.use(cors({
-origin:['http://localhost:5173'],
+origin:['https://dhanrajsardana.github.io'],
 methods:['GET','POST'],
 credentials:true
 }))
